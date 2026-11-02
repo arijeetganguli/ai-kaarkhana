@@ -65,7 +65,7 @@ What `validate_docs.py` covers is listed in the [scripts guide](../scripts/READM
 8. **Issue form labels** (`bug`, `documentation`, `enhancement`, `skill`, `prompt`) must exist in the GitHub repository for them to be applied. Create them after publishing.
 9. **Enforcement contact for the code of conduct** is described generically. Maintainers should set a real private contact before publishing.
 10. **Minimum versions were not tested.** The documents say Python 3.10 or newer, JDK 17 and Node.js 20 or newer. Locally only the runtimes listed at the top were used; CI is configured for Python 3.12, Node.js 22 and JDK 17. Tool conventions and external standards (OWASP, DORA) also age and should be rechecked at each release.
-11. **The repository is not yet a git repository** in the working folder where it was built; initialise it and make the first commit when you publish.
+11. **The first push to GitHub has not succeeded.** The local repository exists, with `origin` set to `git@github.com:arijeetganguli/ai-kaarkhana.git`, but `git push` was rejected with `Permission denied (publickey)`. The empty GitHub repository was confirmed through the public API. Create the issue labels after the push succeeds.
 
 ## Progress checklist
 
