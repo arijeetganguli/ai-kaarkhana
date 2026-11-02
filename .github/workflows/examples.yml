@@ -1,0 +1,64 @@
+name: examples
+
+on:
+  pull_request:
+    paths:
+      - "examples/**"
+      - "scripts/verify_lab.py"
+      - ".github/workflows/examples.yml"
+  push:
+    branches: [main]
+    paths:
+      - "examples/**"
+      - "scripts/verify_lab.py"
+      - ".github/workflows/examples.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    name: Python examples and Broken Code Lab
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - name: Python examples
+        working-directory: examples/python
+        run: pytest
+      - name: Broken Code Lab (each exercise red on broken, green on solution)
+        run: python scripts/verify_lab.py
+
+  typescript:
+    name: TypeScript examples
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: examples/typescript
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: examples/typescript/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+
+  java:
+    name: Java examples
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: maven
+      - name: Java examples
+        working-directory: examples/java
+        run: mvn -B -ntp test

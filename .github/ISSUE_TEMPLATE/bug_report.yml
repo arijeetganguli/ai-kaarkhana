@@ -1,0 +1,57 @@
+name: Bug report
+description: "Something in the repository is wrong: a broken link, an incorrect statement, a failing example or script."
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to keep this repository accurate. Please give enough detail for someone else to reproduce the problem.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Handbook
+        - Skills
+        - Prompts
+        - Workflows
+        - Templates
+        - Examples (Java)
+        - Examples (Python)
+        - Examples (TypeScript)
+        - Broken Code Lab
+        - Scripts or CI
+        - Tool adapters
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: File or page
+      description: Path of the file, and the heading or line if you can.
+      placeholder: handbook/05_test_driven_development/test_design.md
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: What you expected and what you found. Quote the text or paste the error output.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Commands you ran, with versions of the language and tools if relevant.
+    validations:
+      required: false
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: Optional. A source for a corrected statement is especially helpful.
+    validations:
+      required: false

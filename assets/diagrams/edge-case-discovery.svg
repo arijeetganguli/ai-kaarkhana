@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" role="img" aria-labelledby="t d">
+<title id="t">Edge case discovery</title>
+<desc id="d">A requirement at the centre with eight categories of edge cases radiating from it.</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#F5A623"/></marker>
+<pattern id="jaali" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M12 4 L20 12 L12 20 L4 12 z" fill="none" stroke="#F5A623" stroke-opacity="0.18" stroke-width="1"/></pattern>
+</defs>
+<rect width="1100" height="700" rx="18" fill="#14172B"/>
+<rect width="1100" height="10" rx="5" fill="url(#jaali)" y="0" opacity="0"/>
+<rect x="0" y="0" width="1100" height="26" fill="url(#jaali)" clip-path="inset(0 round 18px 18px 0 0)"/>
+<rect x="0" y="696" width="1100" height="4" fill="#F5A623" opacity="0.9" clip-path="inset(0 round 0 0 18px 18px)"/>
+<text x="40" y="62" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" fill="#F6F2E8" font-weight="800" text-anchor="start" >Edge case discovery</text>
+<text x="40" y="88" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#B9BFDD" font-weight="400" text-anchor="start" >Walk every category before writing code. Unanswered questions go to the product owner.</text>
+<circle cx="550" cy="395" r="82" fill="#283061" stroke="#F5A623" stroke-width="3"/>
+<text x="550" y="391" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" fill="#F6F2E8" font-weight="800" text-anchor="middle" >Requirement</text>
+<text x="550" y="417" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#B9BFDD" font-weight="400" text-anchor="middle" >+ business rules</text>
+<line x1="550" y1="309" x2="550" y2="183" stroke="#2CC4B8" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="440" y="112" width="220" height="66" rx="12" fill="#1E2347" stroke="#2CC4B8" stroke-width="1.6"/>
+<rect x="440" y="122" width="5" height="46" rx="2.5" fill="#2CC4B8"/>
+<text x="460" y="140" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#F6F2E8" font-weight="700" text-anchor="start" >Absent data</text>
+<text x="460" y="162" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#B9BFDD" font-weight="400" text-anchor="start" >null, empty, missing</text>
+<line x1="611" y1="334" x2="769" y2="256" stroke="#F5A623" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="719" y="185" width="220" height="66" rx="12" fill="#1E2347" stroke="#F5A623" stroke-width="1.6"/>
+<rect x="719" y="195" width="5" height="46" rx="2.5" fill="#F5A623"/>
+<text x="739" y="213" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#F6F2E8" font-weight="700" text-anchor="start" >Boundaries</text>
+<text x="739" y="235" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#B9BFDD" font-weight="400" text-anchor="start" >min, max, off-by-one</text>
+<line x1="636" y1="395" x2="830" y2="395" stroke="#FF7A6B" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="835" y="362" width="220" height="66" rx="12" fill="#1E2347" stroke="#FF7A6B" stroke-width="1.6"/>
+<rect x="835" y="372" width="5" height="46" rx="2.5" fill="#FF7A6B"/>
+<text x="855" y="390" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#F6F2E8" font-weight="700" text-anchor="start" >Invalid input</text>
+<text x="855" y="412" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#B9BFDD" font-weight="400" text-anchor="start" >type, format, size</text>
+<line x1="611" y1="456" x2="769" y2="534" stroke="#F5A623" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="719" y="539" width="220" height="66" rx="12" fill="#1E2347" stroke="#F5A623" stroke-width="1.6"/>
+<rect x="719" y="549" width="5" height="46" rx="2.5" fill="#F5A623"/>
+<text x="739" y="567" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#F6F2E8" font-weight="700" text-anchor="start" >Invalid state</text>
+<text x="739" y="589" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#B9BFDD" font-weight="400" text-anchor="start" >wrong order, repeat</text>
+<line x1="550" y1="481" x2="550" y2="607" stroke="#2CC4B8" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="440" y="612" width="220" height="66" rx="12" fill="#1E2347" stroke="#2CC4B8" stroke-width="1.6"/>
+<rect x="440" y="622" width="5" height="46" rx="2.5" fill="#2CC4B8"/>
+<text x="460" y="640" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#F6F2E8" font-weight="700" text-anchor="start" >Dependencies</text>
+<text x="460" y="662" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#B9BFDD" font-weight="400" text-anchor="start" >timeout, 5xx, bad body</text>
+<line x1="489" y1="456" x2="331" y2="534" stroke="#7BD88F" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="161" y="539" width="220" height="66" rx="12" fill="#1E2347" stroke="#7BD88F" stroke-width="1.6"/>
+<rect x="161" y="549" width="5" height="46" rx="2.5" fill="#7BD88F"/>
+<text x="181" y="567" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#F6F2E8" font-weight="700" text-anchor="start" >Time &amp; retries</text>
+<text x="181" y="589" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#B9BFDD" font-weight="400" text-anchor="start" >idempotency, expiry</text>
+<line x1="464" y1="395" x2="270" y2="395" stroke="#FF7A6B" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="45" y="362" width="220" height="66" rx="12" fill="#1E2347" stroke="#FF7A6B" stroke-width="1.6"/>
+<rect x="45" y="372" width="5" height="46" rx="2.5" fill="#FF7A6B"/>
+<text x="65" y="390" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#F6F2E8" font-weight="700" text-anchor="start" >Concurrency</text>
+<text x="65" y="412" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#B9BFDD" font-weight="400" text-anchor="start" >races, double submit</text>
+<line x1="489" y1="334" x2="331" y2="256" stroke="#7BD88F" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="161" y="185" width="220" height="66" rx="12" fill="#1E2347" stroke="#7BD88F" stroke-width="1.6"/>
+<rect x="161" y="195" width="5" height="46" rx="2.5" fill="#7BD88F"/>
+<text x="181" y="213" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#F6F2E8" font-weight="700" text-anchor="start" >Security</text>
+<text x="181" y="235" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#B9BFDD" font-weight="400" text-anchor="start" >authz, injection, PII</text>
+</svg>

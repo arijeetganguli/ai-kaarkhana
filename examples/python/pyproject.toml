@@ -1,0 +1,13 @@
+[project]
+name = "kaarkhana-examples"
+version = "1.0.0"
+description = "Runnable Python examples for the AI Kaarkhana handbook"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

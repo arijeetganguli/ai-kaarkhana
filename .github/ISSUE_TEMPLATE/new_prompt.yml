@@ -1,0 +1,47 @@
+name: New prompt proposal
+description: Propose a specific, reusable prompt for the library.
+title: "[Prompt]: "
+labels: ["prompt"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Prompt id
+      description: Kebab case. It will be the file name.
+      placeholder: concurrency-review
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - requirements
+        - development
+        - testing
+        - debugging
+        - code_review
+        - architecture
+        - delivery
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+      description: The specific failure this prompt prevents. Generic goals such as "write better code" are not accepted.
+    validations:
+      required: true
+  - type: textarea
+    id: draft
+    attributes:
+      label: Draft prompt
+      description: Include placeholders, constraints, output format, and the rule for unknowns and evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How a person validates the answer
+    validations:
+      required: true

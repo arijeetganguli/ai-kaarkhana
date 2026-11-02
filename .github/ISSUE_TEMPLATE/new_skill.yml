@@ -1,0 +1,60 @@
+name: New skill proposal
+description: Propose a reusable, tool agnostic skill.
+title: "[Skill]: "
+labels: ["skill"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: Lowercase letters, digits and hyphens. It will be the folder name.
+      placeholder: concurrency-reviewer
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: What failure does it prevent, and when would a developer invoke it?
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Required input and expected output
+    validations:
+      required: true
+  - type: dropdown
+    id: activity
+    attributes:
+      label: Activity
+      options:
+        - requirements
+        - planning
+        - testing
+        - quality
+        - security
+        - performance
+        - debugging
+        - architecture
+        - review
+        - documentation
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - beginner
+        - intermediate
+        - advanced
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Overlap with existing skills
+      description: Which existing skills are closest, and why is a new one needed?
+    validations:
+      required: true

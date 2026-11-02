@@ -1,0 +1,32 @@
+# Dependencies and build output
+node_modules/
+target/
+dist/
+build/
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and local files
+*.log
+.env
+.env.*
+*.local
+coverage/
+.nyc_output/

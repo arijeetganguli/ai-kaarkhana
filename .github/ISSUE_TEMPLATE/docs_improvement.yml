@@ -1,0 +1,25 @@
+name: Documentation improvement
+description: Clarify, correct or extend a handbook page, workflow, template or guide.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File or page
+      placeholder: workflows/04_new_api.md
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is unclear, missing or outdated
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A link or reference for any factual claim you want added or changed.
+    validations:
+      required: false

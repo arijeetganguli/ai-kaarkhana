@@ -1,0 +1,45 @@
+name: docs
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate documentation and generated files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # PyYAML is optional; when present the validator also parses workflow and issue form YAML.
+      - name: Install PyYAML
+        run: python -m pip install pyyaml
+
+      # Links, anchors, structure, skills and prompts, SVGs, Mermaid, placeholders.
+      - name: Validate documentation
+        run: python scripts/validate_docs.py
+
+      # Generated files must match their canonical sources.
+      - name: Skill registry is current
+        run: python scripts/build_registry.py --check
+
+      - name: Tool adapters are current
+        run: python scripts/sync_adapters.py --check
+
+      # Syntax check with the real Mermaid parser. It does not render diagrams.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Mermaid diagrams parse
+        run: |
+          npm install --no-save mermaid jsdom
+          node scripts/check_mermaid.mjs .

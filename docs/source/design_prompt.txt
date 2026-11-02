@@ -1,0 +1,987 @@
+I would build this as an open source AI Engineering Handbook and Developer Operating System, not just a collection of Markdown articles and prompts.
+
+The ambition should be to create a GitHub repository that becomes the go to reference for engineering teams adopting AI assisted software development. It should be useful to individual developers, engineering managers, architects, QA engineers and technical leads.
+
+The repository should be designed to evolve through community contributions, with reusable AI skills, prompt libraries, development workflows, testing frameworks, coding standards, architecture patterns and practical examples.
+
+## 1. Naming the repository
+
+I would lean towards an Indian inspired name that is memorable internationally, has a cultural connection and can become a recognisable developer community.
+
+[PM Vishwakarma Yojana 2026: Empowering Artisans, Shaping Ind | TrueJobs](https://images.openai.com/static-rsc-4/IJlBFwoHKalXdOCDfk0csXw_BFSId1xCr7j-YVCD_CuArIcQXCb8HzV3mgwgqKeOC_nAckz6iEuAmrLsHAA2KfhPXvG9wu6QtwsSaZNWW5KRKcf-bJl11Jd2LHaO3M6rkDOBK8AWgYHY74X051o-urjhbutSNfS6zFvI88p6f5s?purpose=inline)
+
+My recommendation
+
+AI Kaarkhana
+
+# AI Kaarkhana
+
+The engineering workshop for building software with AI.
+
+Indian origin, memorable, and communicates craftsmanship, engineering and creation.
+
+[Unity in Diversity | Story.com](https://images.openai.com/static-rsc-4/NZC5XadyfnGPFQvAiyQdpIpdb_uxJvxbYSqY_KPe-8XOQu2k0TdTI1mdhatB9Z-Mjq9rNUxlmGQmMZ7xnxPlPkLjeyWMdgFy6Io8LpcgG6hYcdfA2RPbBSwSZbDOgEMlPOEpJsIr7rprWdqWClWx31JZeGaIXOroe20yrpmxths?purpose=inline)
+
+CodeChaupal
+
+Where developers and AI build together.
+
+Community oriented, approachable and suitable for an open source movement.
+
+[Asato Ma Sadgamaya, Tamaso Ma Jyotirgamaya, Mrityor Ma Amritam Gamaya – Explain](https://images.openai.com/static-rsc-4/EW7XOg9kfSnn81LrZx4CukXm2ofkR_FsI893EB8NVgiibjcHxgIp15vrdU8NGncub9XmFiJ4A0s1p2WrKEqKVt5SDvDbPZFU1oLXC_y1u0TuRiNnaN6CGFQdMq3_ePucIEE1EmlR9MHT0N8miZRGlR9ZIQfxNiMb54jmFB0YBl8?purpose=inline)
+
+SutraCode
+
+Principles and practices for AI native engineering.
+
+Short, distinctive and professional.
+
+[Deepak Chopra - Official Website](https://images.openai.com/static-rsc-4/4k4dV_3ABDWrxeNnsrgOS8rYNa_qhIAd6wV7go8F3tnrpXuiH7-D0DkTBZ0BWwbBLHhrBTwHd-Sv8vEZwGLiUgqj0mXKmqbTVB2glaMqle39Z2DYAyTneIBAonSpDm0uXGLdck85t6SJAMWHFK-v8lXGQrindfC3XaFbcaOb1Yk?purpose=inline)
+
+YantraDev
+
+The machinery behind intelligent software engineering.
+
+Technology oriented and easy to brand.
+
+My choice would be:
+
+AI Kaarkhana
+
+Tagline: Think like an engineer. Build with AI. Own the outcome.
+
+It has the potential to become more than a repository. It could become an open source engineering community.
+
+## 2. What the repository should contain
+
+I would organise it around eight pillars.
+
+[What Makes a Good App Spec? A Framework for Technical Builders | MindStudio](https://images.openai.com/static-rsc-4/DRNEW4DL6aIDEXIAgozoV2r8Muss_w121MbT50tK8bPjYaFlXJQjjegvTQzTlyrPN7Hw5bwXg_qj_Hjq8DIPg1URTeKa_WzqRYn7p5T6uLlrBEC5oxZB_FnuD_o0Gh2s8hLfsS0xHi79y8uesj5vhH_c9XIjwJGvc4mn_GYnYaE?purpose=inline)
+
+01\. Handbook
+
+Engineering principles, ways of working, AI adoption.
+
+[Supercharge Developer Workflows and Software Engineering with AI Agents | Dell](https://images.openai.com/static-rsc-4/kThtJDkt1sV5PRMn8iz3HqDtXHAM9pHVMmFaYJRPTEa0iYA0NPt7v1JrbNJAPLq19ES_-051SYrEp5uMyawU1gidAYBU1wEbOfA-qYRhSTFc_aCO6wlCwC-R7yS_PmLciKmPHALqwb6-PWjR_WdqdH5_iqF4oH0-NYN71VmvMtw?purpose=inline)
+
+02\. AI Skills
+
+Reusable agent skills for engineering activities.
+
+[Test Driven Development (TDD): How it works, Pros and Cons](https://images.openai.com/static-rsc-4/tuGjrNZF9HhGGdEdhwHWY_CSDWhj3tGtqu_0Zy-fy2l6OTMQV9k-n8qzHblKRmiENlS-hQVxu4bxSnguJ91hVigojLEh7tX8qg9ziClN7A7Yk2FH9upegLE5OnO10YEZoLdKazH1YUdw3uXdGcQbueJTHwHr14slv9pLbafRSmw?purpose=inline)
+
+03\. Testing
+
+TDD, unit tests, integration tests, mutation testing.
+
+[AI Code Review in Agentic Coding Workflows | Sonar](https://images.openai.com/static-rsc-4/Uk9JXyfECsvy7_eRzN7Gj77Su7bHCAHZiirfAHbZR9ijfvOu_Fa6jQj70HTOiPU6_C_zehfiFwiP_OW0xSju24VLynAZJNEfFfqMTlQ1sVbNOTP9_J3nPSMMxTr0z7Vq-QTYIceLji9oT392tkpV4qP9SR91avvtf894uypRn60?purpose=inline)
+
+04\. Code Quality
+
+Defensive programming, code reviews, security.
+
+[Free Software Architecture Diagram Generator | Create System Diagrams Online - Figviz](https://images.openai.com/static-rsc-4/5byxmMSG4rQ4xIYEuWWjn6T1uA573D6__OelbHw_8IsuZpAIhONhEGwIMH9Hpxdwzv6jmCHx_iL-rV-1E2cpCKkAXOZit2xaCFzTeuFUv9VCk6t701zZyJV9VDU3_1lJwh0zAb4KJy-0T0AY9GnuD_P54ZosL7kvya1AGRnAGhE?purpose=inline)
+
+05\. Architecture
+
+System design, refactoring, technical debt.
+
+[Introducing prompt-library CLI: Making AI Assistants More Accessible](https://images.openai.com/static-rsc-4/xA1UdfumdT8vOZFLkYiBLqkn6oVyJGhPkyuECcBRRYJO16rSI2vQE4GdhL5RFYqjEU8G66ubjUglVJWZ72pob3UEBcHgECYdtWnr1y34a4QA9w3WCQowvYSavFBDMnNR50K0cVtAiFEQHtgPGZmDcDs9fg9PAjH1DalUNPCD79o?purpose=inline)
+
+06\. Prompt Library
+
+Copy ready prompts for real development scenarios.
+
+[Your CI Pipeline Is Slow Because You Made It That Way | by Story Crafter | Jan, 2026 | Medium](https://images.openai.com/static-rsc-4/a47ZciQVlP-cWRv1UY2golyXwNIAfvbfv1E4Wxk7wwtTUNiKVJ7XPTY5LAYtyrt-YzvXygPy5WZqSpVApFpeJRUrRmYwqFWUgas5NH7CGuKgQ1ZJbD3oi0iVVNhdmH4VabsUdqJ6MFsG7IF2-HobctwBFIP0rdOS1NtfqDIGHBk?purpose=inline)
+
+07\. Engineering Automation
+
+CI/CD, quality gates, governance and observability.
+
+[Guide to Building an Open Source Community](https://images.openai.com/static-rsc-4/_ql_G_dSotEFQ4DtM03HJJJi7PXRlIW-u431p_rlTF6U_rhQHcGcbxJWbW1DolywLKbOsFpkKaYpjyXgs5c_T1LonYYJNSnZfhdAdNEQneKcYzfI8yPsNJYjPH9DMcUzKaItwmM_MLvUxcb5iZe-JdkCZpEcTeSygbpinkrKPxw?purpose=inline)
+
+08\. Community
+
+Contributions, examples, templates and learning paths.
+
+The most important architectural decision is to keep the content tool agnostic.
+
+A skill should work conceptually across GitHub Copilot, Cursor, Claude Code and other coding agents. Tool specific configurations should be adapters rather than the source of truth.
+
+I would also make every skill independently usable, with its own `SKILL.md`, examples, prompts, expected inputs and outputs, and validation criteria.
+
+## 3. Suggested GitHub repository structure
+
+The following is the target structure I would ask Copilot to create.
+
+```
+ai_kaarkhana/
+│
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── SECURITY.md
+├── CHANGELOG.md
+├── ROADMAP.md
+│
+├── handbook/
+│   ├── README.md
+│   ├── 01_ai_engineering/
+│   ├── 02_developer_ways_of_working/
+│   ├── 03_requirement_engineering/
+│   ├── 04_ai_assisted_coding/
+│   ├── 05_testing_and_tdd/
+│   ├── 06_code_quality/
+│   ├── 07_architecture_and_design/
+│   ├── 08_security_and_governance/
+│   ├── 09_code_review/
+│   ├── 10_delivery_and_operations/
+│   └── 11_engineering_management/
+│
+├── skills/
+│   ├── requirement_analysis/
+│   ├── edge_case_discovery/
+│   ├── implementation_planning/
+│   ├── tdd/
+│   ├── unit_testing/
+│   ├── integration_testing/
+│   ├── mutation_testing/
+│   ├── defensive_coding/
+│   ├── code_review/
+│   ├── security_review/
+│   ├── refactoring/
+│   ├── debugging/
+│   ├── performance_analysis/
+│   ├── regression_analysis/
+│   └── documentation/
+│
+├── prompts/
+│   ├── requirements/
+│   ├── development/
+│   ├── testing/
+│   ├── debugging/
+│   ├── code_review/
+│   ├── architecture/
+│   └── delivery/
+│
+├── workflows/
+│   ├── feature_development/
+│   ├── bug_fixing/
+│   ├── refactoring/
+│   ├── test_driven_development/
+│   ├── production_incident/
+│   └── pull_request/
+│
+├── templates/
+│   ├── requirement_template.md
+│   ├── technical_design_template.md
+│   ├── test_plan_template.md
+│   ├── code_review_template.md
+│   ├── pull_request_template.md
+│   └── ai_task_template.md
+│
+├── examples/
+│   ├── java/
+│   ├── python/
+│   ├── typescript/
+│   └── end_to_end/
+│
+├── tools/
+│   ├── github_copilot/
+│   ├── cursor/
+│   ├── claude_code/
+│   └── generic_agents/
+│
+├── assets/
+│   ├── images/
+│   ├── diagrams/
+│   └── logos/
+│
+├── .github/
+│   ├── copilot-instructions.md
+│   ├── prompts/
+│   ├── skills/
+│   ├── ISSUE_TEMPLATE/
+│   └── PULL_REQUEST_TEMPLATE.md
+│
+└── docs/
+    ├── getting_started.md
+    ├── glossary.md
+    ├── faq.md
+    └── learning_paths.md
+```
+
+This structure deliberately separates four things:
+
+1. Knowledge: What engineers should know.
+2. Skills: What AI agents should be able to do.
+3. Prompts: How engineers instruct AI.
+4. Workflows: How engineering activities should be executed end to end.
+
+## 4. Master prompt for GitHub Copilot
+
+This is the prompt I would use in GitHub Copilot Agent mode, opened at the root of a new repository.
+
+It instructs Copilot to build the repository as a complete open source product, rather than simply generating an outline or a few Markdown files.
+
+# Project: AI Kaarkhana
+
+## Mission
+
+Build a production quality, open source AI Engineering Handbook and Developer Operating System.
+
+Repository name: AI Kaarkhana
+
+Tagline: Think like an engineer. Build with AI. Own the outcome.
+
+Repository description:
+
+An open source engineering playbook for AI assisted software development. Practical engineering guidelines, reusable AI skills, prompt libraries, TDD workflows, testing strategies, architecture patterns, code quality standards and developer operating practices.
+
+The repository should become a go to resource for software engineers, technical leads, architects, QA engineers and engineering managers who want to adopt AI assisted development without compromising software quality.
+
+This is not a generic AI introduction, prompt collection or marketing website. It must be a practical, technically credible engineering handbook with reusable assets that developers can use in real software projects.
+
+## 1. Core objectives
+
+Build the repository around these principles:
+
+1. AI is an engineering partner, not a replacement for engineering judgement.
+2. Developers remain accountable for all generated code.
+3. Requirements must be understood before implementation.
+4. AI should identify ambiguity and missing business rules rather than silently inventing them.
+5. Test Driven Development should be a preferred implementation approach.
+6. Edge cases must be identified before implementation.
+7. Generated code must be independently validated.
+8. Every important execution path must have intentional behaviour.
+9. Static analysis, automated testing and security checks must complement AI reviews.
+10. Code quality and production reliability must not be sacrificed for development speed.
+11. AI skills should be reusable across different coding assistants.
+12. Every guideline should have practical examples, instructions and ready to use prompts.
+
+## 2. Repository architecture
+
+Create the following top level directories:
+
+- handbook/
+- skills/
+- prompts/
+- workflows/
+- templates/
+- examples/
+- tools/
+- assets/
+- docs/
+- .github/
+
+Create a meaningful README.md at the root.
+
+Each directory must have its own README.md explaining its purpose, contents and navigation.
+
+Use Markdown as the primary content format.
+
+Use relative links for internal navigation. Ensure that all internal links point to existing files.
+
+Do not create empty placeholder files or directories. Populate the repository with useful content.
+
+## 3. Engineering handbook
+
+Build a structured handbook containing the following chapters.
+
+### Chapter 1: AI Native Engineering
+
+Cover:
+
+- What AI assisted development means.
+- AI as an engineering collaborator.
+- Developer accountability.
+- Human judgement versus AI generated implementation.
+- AI assisted versus AI driven development.
+- Common failure patterns.
+- Responsible adoption.
+- Engineering productivity versus code generation productivity.
+
+### Chapter 2: Developer Ways of Working
+
+Cover:
+
+- Requirement understanding.
+- Problem decomposition.
+- Asking AI the right questions.
+- Context engineering.
+- Repository exploration.
+- Planning before implementation.
+- Iterative development.
+- Validating AI generated code.
+- Understanding and maintaining generated code.
+
+Include a complete developer workflow.
+
+### Chapter 3: Requirement Engineering
+
+Cover:
+
+- Requirement analysis.
+- Functional and non functional requirements.
+- Acceptance criteria.
+- Requirement ambiguity.
+- Business rule discovery.
+- Boundary conditions.
+- Negative scenarios.
+- Dependency analysis.
+- Failure scenarios.
+- Requirement traceability.
+
+Include a practical scenario matrix template.
+
+### Chapter 4: AI Assisted Development
+
+Cover:
+
+- Code generation.
+- Existing codebase analysis.
+- Repository level instructions.
+- Architecture awareness.
+- Context management.
+- Multi file changes.
+- Dependency management.
+- Incremental implementation.
+- Refactoring.
+- Debugging.
+
+Include examples in Java, Python and TypeScript.
+
+### Chapter 5: Test Driven Development
+
+This must be one of the most detailed chapters.
+
+Cover:
+
+- TDD fundamentals.
+- Red, Green, Refactor.
+- Writing tests before implementation.
+- AI assisted test generation.
+- Requirement driven tests.
+- Behaviour driven development.
+- Test fixtures and test data.
+- Mocking and stubbing.
+- Parameterised testing.
+- Boundary testing.
+- Negative testing.
+- Regression testing.
+- Property based testing.
+- Mutation testing.
+- Test coverage limitations.
+
+Provide practical examples in Java, Python and TypeScript.
+
+### Chapter 6: Defensive Programming and Edge Case Engineering
+
+Cover:
+
+- Null handling.
+- Missing else branches.
+- Incomplete conditional expressions.
+- Boolean logic errors.
+- Missing switch cases.
+- Empty collections.
+- Invalid input.
+- Numeric boundaries.
+- Invalid states.
+- Unexpected API responses.
+- Timeouts.
+- Retries.
+- Idempotency.
+- Concurrency.
+- Resource cleanup.
+- Transaction boundaries.
+- Exception handling.
+
+Explain why simply adding an else block is not always the right solution.
+
+Demonstrate incomplete and corrected implementations with automated tests.
+
+### Chapter 7: Code Quality
+
+Cover:
+
+- Clean code.
+- SOLID principles.
+- Code smells.
+- Maintainability.
+- Complexity.
+- Duplication.
+- Dependency management.
+- Static analysis.
+- Code quality gates.
+- Technical debt.
+- AI generated code quality risks.
+
+Include examples of tools and practical configuration recommendations.
+
+### Chapter 8: Architecture and Design
+
+Cover:
+
+- System design.
+- Design patterns.
+- Modular architecture.
+- Microservices.
+- Event driven architecture.
+- API design.
+- Database design.
+- Data modelling.
+- Resilience.
+- Scalability.
+- Architectural decision records.
+- AI assisted architecture reviews.
+
+### Chapter 9: Security Engineering
+
+Cover:
+
+- Secure coding.
+- Authentication.
+- Authorisation.
+- Input validation.
+- Secrets management.
+- Dependency vulnerabilities.
+- Prompt injection.
+- Sensitive information handling.
+- OWASP risks.
+- AI generated security defects.
+- Threat modelling.
+- SAST and DAST.
+
+### Chapter 10: Code Review and Pull Requests
+
+Cover:
+
+- AI assisted code review.
+- Independent review.
+- Defect identification.
+- Review severity.
+- Test evidence.
+- PR quality.
+- Developer explanations.
+- Reviewer accountability.
+- Approval criteria.
+
+### Chapter 11: Engineering Delivery and Operations
+
+Cover:
+
+- CI/CD.
+- Release management.
+- Deployment strategies.
+- Canary deployments.
+- Feature flags.
+- Smoke testing.
+- Rollback strategies.
+- Production debugging.
+- Observability.
+- Incident management.
+- AI assisted operations.
+
+### Chapter 12: Engineering Leadership
+
+Cover:
+
+- Establishing AI engineering standards.
+- Coaching developers.
+- Measuring AI adoption.
+- Evaluating engineering productivity.
+- Quality versus velocity.
+- Engineering team enablement.
+- AI adoption maturity.
+- Measuring DORA metrics.
+- Governance without restricting innovation.
+
+## 4. Reusable AI skills library
+
+Create a reusable skill library.
+
+Every skill must contain:
+
+- SKILL.md
+- Purpose.
+- When to invoke the skill.
+- Required input.
+- Execution instructions.
+- Expected output.
+- Validation checklist.
+- Example usage.
+- Sample prompts.
+- Common mistakes.
+- Related skills.
+
+Create at least the following skills:
+
+1. Requirement Analyst.
+2. Repository Explorer.
+3. Edge Case Hunter.
+4. Business Rule Analyst.
+5. Implementation Planner.
+6. TDD Engineer.
+7. Unit Test Engineer.
+8. Integration Test Engineer.
+9. Mutation Testing Specialist.
+10. Defensive Programming Reviewer.
+11. Control Flow Analyst.
+12. Code Quality Reviewer.
+13. Security Reviewer.
+14. Performance Analyst.
+15. Debugging Specialist.
+16. Regression Analyst.
+17. Refactoring Specialist.
+18. API Contract Reviewer.
+19. Database Design Reviewer.
+20. Documentation Engineer.
+21. PR Readiness Reviewer.
+22. Architecture Reviewer.
+
+Skills must be tool agnostic.
+
+Where required, provide compatible adapters for GitHub Copilot, Cursor and Claude Code.
+
+Do not claim that a skill is compatible with a tool unless the corresponding file format and invocation method are documented.
+
+## 5. Prompt library
+
+Create a searchable, well categorised prompt library.
+
+Each prompt must have:
+
+- Prompt name.
+- Problem it solves.
+- When to use it.
+- Required context.
+- Complete copy ready prompt.
+- Expected AI output.
+- Validation steps.
+- Related skills.
+
+Create prompts for:
+
+Requirement analysis:
+
+- Requirement clarification.
+- Acceptance criteria generation.
+- Business rule discovery.
+- Edge case discovery.
+- Scenario matrix generation.
+
+Development:
+
+- Repository exploration.
+- Implementation planning.
+- Code generation.
+- Existing code modification.
+- Refactoring.
+- Defensive coding.
+- Dependency analysis.
+
+Testing:
+
+- TDD test generation.
+- Unit test generation.
+- Integration test generation.
+- Contract testing.
+- Boundary testing.
+- Negative testing.
+- Mutation testing.
+- Regression test generation.
+
+Review:
+
+- Control flow review.
+- Missing condition detection.
+- Null handling review.
+- Exception handling review.
+- Security review.
+- Performance review.
+- Independent code review.
+- PR readiness assessment.
+
+Operations:
+
+- Production incident analysis.
+- Root cause analysis.
+- Log analysis.
+- Deployment risk analysis.
+- Rollback planning.
+
+All prompts must be actionable and specific. Avoid generic prompts such as "write clean code" or "find bugs".
+
+## 6. End to end engineering workflows
+
+Create documented workflows for:
+
+1. Building a new feature.
+2. Fixing a defect.
+3. Refactoring an existing service.
+4. Introducing a new API.
+5. Changing a database schema.
+6. Developing a data pipeline.
+7. Writing unit and integration tests.
+8. Handling a production incident.
+9. Reviewing a pull request.
+10. Preparing a production release.
+
+For every workflow include:
+
+- Starting inputs.
+- Sequence of activities.
+- AI skill invoked at each step.
+- Developer responsibility.
+- Required outputs.
+- Validation checkpoints.
+- Completion criteria.
+
+Include Mermaid diagrams for the major workflows.
+
+## 7. Repository level AI instructions
+
+Create:
+
+- .github/copilot-instructions.md
+- .github/prompts/
+- .github/skills/
+
+Use the currently supported GitHub Copilot conventions.
+
+Create a reusable set of repository instructions that establishes:
+
+- Understand architecture before coding.
+- Analyse requirements before implementation.
+- Never silently invent business rules.
+- Identify edge cases.
+- Prefer TDD.
+- Preserve existing tests.
+- Handle all intentional execution paths.
+- Implement appropriate validation and error handling.
+- Run automated tests.
+- Report actual test results.
+- Explain design decisions.
+- Identify known limitations.
+
+Also create a generic instruction file for other coding assistants.
+
+## 8. Practical code examples
+
+Create realistic, runnable examples in:
+
+- Java with JUnit 5 and Mockito.
+- Python with pytest.
+- TypeScript with Jest or Vitest.
+
+Include examples demonstrating:
+
+- An incomplete conditional implementation.
+- Missing null handling.
+- Missing else behaviour.
+- Incorrect boundary conditions.
+- Inadequate exception handling.
+- Missing integration tests.
+- Inadequate unit tests.
+- A refactoring exercise.
+- TDD implementation from requirement to passing tests.
+- Mutation testing demonstrating weak assertions.
+
+Every example must include:
+
+- Initial implementation.
+- Identified problem.
+- Improved implementation.
+- Automated tests.
+- Explanation of why the improvement matters.
+
+Where possible, provide executable code and setup instructions.
+
+## 9. Visual design and illustrations
+
+Make this repository visually engaging and professionally designed.
+
+Do not create a plain wall of Markdown text.
+
+Create original SVG assets and Mermaid diagrams.
+
+Required visual assets:
+
+1. AI Kaarkhana brand logo.
+2. Repository hero illustration.
+3. AI assisted engineering lifecycle.
+4. Developer and AI responsibility model.
+5. TDD Red, Green, Refactor diagram.
+6. Requirement to test traceability diagram.
+7. Edge case discovery diagram.
+8. AI skill execution workflow.
+9. Code review and quality gate workflow.
+10. AI engineering maturity model.
+11. End to end feature development workflow.
+
+Use a consistent visual identity.
+
+Design direction:
+
+- Modern engineering aesthetic.
+- Indian inspired visual identity, used subtly.
+- Professional, not stereotypical.
+- Clean typography.
+- Dark and light friendly diagrams.
+- High contrast.
+- Consistent iconography.
+- No unnecessary decoration.
+
+Store all images and diagrams under assets/.
+
+Prefer SVG for original illustrations and diagrams because they are version controllable and scalable.
+
+Use relative image references throughout the handbook.
+
+Do not rely on remote image URLs for essential content.
+
+## 10. README design
+
+The root README is the front door to the project.
+
+It must include:
+
+- An attractive hero section.
+- Logo and tagline.
+- Clear project description.
+- Why this project exists.
+- The engineering philosophy.
+- Main content pillars.
+- Quick navigation.
+- Getting started instructions.
+- How to use AI skills.
+- How to use prompts.
+- Supported coding assistants.
+- Example developer workflow.
+- Contribution guidelines.
+- Roadmap.
+- Community invitation.
+
+Include a table of contents and links to the important sections.
+
+Add meaningful badges only when their targets and status are real. Do not invent GitHub statistics, star counts or build status.
+
+Create a section called "Start Here" with recommended reading for:
+
+- Individual developers.
+- Engineering leads.
+- Architects.
+- QA engineers.
+- Engineering managers.
+
+## 11. Documentation and navigation
+
+Every major handbook page must link to:
+
+- Related skills.
+- Related prompts.
+- Related workflows.
+- Relevant examples.
+- Further reading.
+
+Create a glossary.
+
+Create a learning path for beginner, intermediate and advanced engineers.
+
+Create a contribution guide explaining how to add a new skill, prompt, example or handbook chapter.
+
+Create a consistent Markdown template for new content.
+
+## 12. Open source governance
+
+Create:
+
+- MIT LICENSE, unless another licensing issue requires discussion.
+- CONTRIBUTING.md.
+- CODE_OF_CONDUCT.md.
+- SECURITY.md.
+- CHANGELOG.md.
+- ROADMAP.md.
+- Issue templates.
+- Pull request template.
+
+Avoid copying proprietary material, copyrighted documentation or third party prompts without permission.
+
+Cite external references appropriately.
+
+Clearly label recommendations, tool capabilities and version specific instructions.
+
+## 13. Quality assurance
+
+Do not stop after generating files.
+
+Perform repository validation.
+
+Check:
+
+1. All Markdown files have meaningful content.
+2. All internal links resolve.
+3. All images exist.
+4. All Mermaid diagrams have valid syntax.
+5. No duplicate or contradictory instructions exist.
+6. All skill files follow a consistent structure.
+7. All prompts are usable without further rewriting.
+8. All code examples are syntactically valid.
+9. Runnable examples include test instructions.
+10. The README navigation is complete.
+11. No proprietary information is included.
+12. No invented statistics or unsupported tool compatibility claims are included.
+
+Create a documentation validation script where practical.
+
+Create a GitHub Actions workflow that validates Markdown links and repository documentation on pull requests.
+
+Do not make successful CI status claims until workflows have actually run.
+
+## 14. Implementation approach
+
+Work incrementally.
+
+Phase 1:\
+Create repository structure, branding, README and navigation.
+
+Phase 2:\
+Build the engineering handbook with substantive content.
+
+Phase 3:\
+Create the reusable AI skills library.
+
+Phase 4:\
+Create the prompt gallery.
+
+Phase 5:\
+Create end to end workflows and practical code examples.
+
+Phase 6:\
+Create images, SVG assets and architecture diagrams.
+
+Phase 7:\
+Create repository level AI instructions and tool adapters.
+
+Phase 8:\
+Create open source governance and validation automation.
+
+Phase 9:\
+Run all documentation and example validations.
+
+Maintain a progress checklist in docs/implementation_status.md.
+
+Do not simply create placeholder content to satisfy the folder structure.
+
+Prioritise quality, technical accuracy and practical usability over the number of files.
+
+When information is missing, document assumptions and flag decisions requiring confirmation.
+
+Do not ask for confirmation after every file. Make sensible engineering decisions and continue.
+
+## 15. Definition of done
+
+The repository is complete when:
+
+- It can be understood by a developer who has never used AI coding assistants.
+- It provides a clear end to end AI assisted development methodology.
+- Its skills can be independently reused.
+- Its prompts solve concrete engineering problems.
+- Its TDD and testing guidance is actionable.
+- Its examples demonstrate actual engineering scenarios.
+- Its visuals make the documentation easier to understand.
+- Its navigation works.
+- Its contribution model supports external contributors.
+- Its GitHub workflows validate the repository.
+- Its documentation is suitable for a public open source release.
+
+The final deliverable must be a usable GitHub repository, not merely a proposed structure.
+
+Start by inspecting the repository, then implement the complete solution directly in the working tree.
+
+At the end, provide a summary of the architecture, files created, major engineering content, validation results and any remaining limitations.
+
+## 5. Make the repository genuinely useful and shareable
+
+I would add a few features that could make this repository stand out from ordinary engineering documentation.
+
+| Feature                    | Why it matters                                               |
+| -------------------------- | ------------------------------------------------------------ |
+| Skill of the Week          | Gives developers a reason to revisit the repository          |
+| Before and After Code      | Demonstrates actual improvement from AI assisted engineering |
+| Prompt Playground          | Shows how prompts affect implementation quality              |
+| Engineering Challenges     | Deliberately broken code for developers to fix with AI       |
+| AI Code Review Checklist   | Reusable checklist for every PR                              |
+| Language Specific Examples | Makes guidance immediately applicable                        |
+| Maturity Assessment        | Helps teams understand their AI adoption level               |
+| Community Contributions    | Encourages external engineers to add skills                  |
+
+### Three signature features I would prioritise
+
+1\. The Broken Code Lab
+
+[Check Blast Radius Before Refactoring for AI Agent-Ready Code](https://images.openai.com/static-rsc-4/wyRGcdHW9-hU6eLrrGJlk5F5tP5is4tWsIZhZMDiGydojGDOfJsoTFrk9Vg9khMNUrAPLRmNLBU3yhNqc_po9L4lmubjWcOEhaq2XvkT6YLUHQuW0sVF6FRinaU6g5vKccH0c46ASax4F1DGQBQi97YV_5wqjHmZi7GoTokQpdY?purpose=inline)
+
+[pharaoh.so](https://pharaoh.so/blog/check-blast-radius-before-refactoring/?utm_source=chatgpt.com)
+
+Create a collection of deliberately defective implementations.
+
+Examples:
+
+- Missing else branches.
+- Null pointer exceptions.
+- Incorrect boolean conditions.
+- Race conditions.
+- Missing transaction rollback.
+- Inadequate exception handling.
+- SQL injection.
+- Missing integration tests.
+
+Each exercise should have the defective code, a challenge, a suggested AI prompt, expected corrections and automated tests.
+
+2\. The AI Engineering Skill Registry
+
+A central catalogue where developers can discover skills by engineering activity, language, framework and difficulty.
+
+3\. The Engineering Maturity Assessment
+
+A practical assessment that helps an engineering team understand whether it is at basic AI adoption, AI assisted development, AI driven workflows or AI native engineering.
+
+This could eventually become a small interactive web application within the repository.
+
+## 6. My suggested launch strategy
+
+I would launch with a focused but high quality initial release.
+
+# AI Kaarkhana
+
+## Think like an engineer. Build with AI. Own the outcome.
+
+[Coding in the Age of AI - DEV Community](https://images.openai.com/static-rsc-4/FZE_Z6vBku53umrOGn9H_h9d9f-qdeR_muRR40I0RpqBUlUFNlbQqsHyA5WUo7Ec-ZRrNaKNXW2bAd6aagfgHYVWl_PEby-Ay4Juugwa-cNp_-QkEfjRk1F0VOBCX2vPDNlXtEXFOkLCabJ08vfZtAAjRuOSJFMC_i8MrkdJvW8?purpose=inline)
+
+[dev.to](https://dev.to/puritanic/coding-in-the-age-of-ai-355m?utm_source=chatgpt.com)
+
+Proposed brand direction, not a final logo.
+
+Initial release priorities
+
+1. A polished engineering handbook.
+2. 20 high quality reusable skills.
+3. 50 practical prompts.
+4. Five complete development workflows.
+5. Java, Python and TypeScript examples.
+6. Broken Code Lab.
+7. GitHub Copilot and Cursor integration.
+8. Contribution framework.
+
+### One additional recommendation
+
+Do not let GitHub Copilot generate the entire repository in one uninterrupted pass. Use the master prompt, but have it execute one phase at a time and validate each phase before moving on. Otherwise, you risk getting 100 Markdown files with repetitive, shallow content.
+
+I would also keep the canonical skills tool agnostic and generate the Copilot specific files from them where appropriate. This avoids maintaining multiple inconsistent versions of the same skill.
+
+My final recommendation is to go with `AI Kaarkhana` and make it a community driven open source engineering initiative. The positioning should be that this is not about teaching developers to use AI. It is about teaching engineers to build better software with AI.
+
+That is a much stronger proposition, both internally for your engineering organisation and externally for the developer community.

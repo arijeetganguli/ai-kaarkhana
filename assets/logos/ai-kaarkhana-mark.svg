@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="t d">
+<title id="t">AI Kaarkhana mark</title>
+<desc id="d">A gear with a diamond at its centre.</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#F5A623"/></marker>
+<pattern id="jaali" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M12 4 L20 12 L12 20 L4 12 z" fill="none" stroke="#F5A623" stroke-opacity="0.18" stroke-width="1"/></pattern>
+</defs>
+<rect width="200" height="200" rx="18" fill="#14172B"/>
+<rect width="200" height="10" rx="5" fill="url(#jaali)" y="0" opacity="0"/>
+<rect x="0" y="0" width="200" height="26" fill="url(#jaali)" clip-path="inset(0 round 18px 18px 0 0)"/>
+<rect x="0" y="196" width="200" height="4" fill="#F5A623" opacity="0.9" clip-path="inset(0 round 0 0 18px 18px)"/>
+<g transform="translate(100 100)">
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(0.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(36.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(72.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(108.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(144.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(180.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(216.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(252.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(288.0)"/>
+<rect x="-7.80" y="-60.58" width="15.60" height="17.16" rx="3.12" fill="#F5A623" transform="rotate(324.0)"/>
+<circle r="52" fill="#F5A623"/>
+<circle r="32.24" fill="#14172B"/>
+<path d="M0 -18.72 L18.72 0 L0 18.72 L-18.72 0 z" fill="#2CC4B8"/>
+</g>
+</svg>

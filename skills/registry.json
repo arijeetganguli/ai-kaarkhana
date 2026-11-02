@@ -1,0 +1,304 @@
+{
+  "schema": "ai-kaarkhana/skill-registry/1",
+  "count": 22,
+  "skills": [
+    {
+      "name": "api-contract-reviewer",
+      "title": "API Contract Reviewer",
+      "description": "Reviews API and event contracts for correctness, consistency, backward compatibility, error semantics, versioning and testability. Use when introducing or changing an HTTP API, event schema or client library.",
+      "path": "skills/api-contract-reviewer/SKILL.md",
+      "activity": "architecture",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "OpenAPI",
+        "REST",
+        "events"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "architecture-reviewer",
+      "title": "Architecture Reviewer",
+      "description": "Reviews designs and architectural changes against quality attributes: modularity, coupling, resilience, scalability, security, operability and cost, and records decisions as ADRs. Use for new components, service boundaries and significant changes.",
+      "path": "skills/architecture-reviewer/SKILL.md",
+      "activity": "architecture",
+      "difficulty": "advanced",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "business-rule-analyst",
+      "title": "Business Rule Analyst",
+      "description": "Extracts and verifies business rules from requirements, code, data and tests, and flags rules that are implicit, contradictory or undocumented. Use when behaviour must be preserved or a rule is unclear.",
+      "path": "skills/business-rule-analyst/SKILL.md",
+      "activity": "requirements",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "code-quality-reviewer",
+      "title": "Code Quality Reviewer",
+      "description": "Reviews code for maintainability: clarity, cohesion, coupling, complexity, duplication, naming, SOLID violations and testability, citing concrete locations and proposing proportionate improvements. Use for code review and before refactoring.",
+      "path": "skills/code-quality-reviewer/SKILL.md",
+      "activity": "quality",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "control-flow-analyst",
+      "title": "Control Flow Analyst",
+      "description": "Analyses branching logic for missing branches, unreachable code, contradictory conditions, boolean precedence errors, fall-through and off-by-one comparisons by enumerating the condition space. Use on any non-trivial conditional logic.",
+      "path": "skills/control-flow-analyst/SKILL.md",
+      "activity": "quality",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "database-design-reviewer",
+      "title": "Database Design Reviewer",
+      "description": "Reviews schemas, queries and migrations for integrity, normalisation, indexing, transactional correctness, backwards-compatible rollout and rollback. Use when designing tables or changing schema.",
+      "path": "skills/database-design-reviewer/SKILL.md",
+      "activity": "architecture",
+      "difficulty": "advanced",
+      "frameworks": [
+        "SQL",
+        "any relational database"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "debugging-specialist",
+      "title": "Debugging Specialist",
+      "description": "Diagnoses defects with a hypothesis-driven method: reproduce, isolate, form falsifiable hypotheses, test them with evidence, fix the root cause with a failing test first. Use for bugs, failing tests and unexpected behaviour.",
+      "path": "skills/debugging-specialist/SKILL.md",
+      "activity": "debugging",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "defensive-programming-reviewer",
+      "title": "Defensive Programming Reviewer",
+      "description": "Reviews code for unhandled null, empty, invalid, boundary and failure cases, and recommends intentional behaviour for each (reject, default, retry, escalate) with tests. Use when reviewing or writing code that handles external input or dependencies.",
+      "path": "skills/defensive-programming-reviewer/SKILL.md",
+      "activity": "quality",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "documentation-engineer",
+      "title": "Documentation Engineer",
+      "description": "Writes and updates accurate documentation from the code and decisions: README, how-to guides, API documentation, runbooks, ADRs and release notes, verified against the code. Use when behaviour changes or knowledge is undocumented.",
+      "path": "skills/documentation-engineer/SKILL.md",
+      "activity": "documentation",
+      "difficulty": "beginner",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "edge-case-hunter",
+      "title": "Edge Case Hunter",
+      "description": "Systematically discovers edge cases, boundary conditions, failure modes and negative scenarios for a requirement or function before implementation, and records them as a scenario matrix. Use before writing tests or code.",
+      "path": "skills/edge-case-hunter/SKILL.md",
+      "activity": "requirements",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "implementation-planner",
+      "title": "Implementation Planner",
+      "description": "Produces a small-step, test-first implementation plan for a change, grounded in repository evidence and a scenario matrix. Use after requirements and repository context are clear, before generating code.",
+      "path": "skills/implementation-planner/SKILL.md",
+      "activity": "planning",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "integration-test-engineer",
+      "title": "Integration Test Engineer",
+      "description": "Designs and writes integration tests that exercise real boundaries such as database queries, HTTP clients and message handlers, including failure and timeout behaviour. Use when unit tests with mocks cannot prove the integration works.",
+      "path": "skills/integration-test-engineer/SKILL.md",
+      "activity": "testing",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "JUnit 5",
+        "pytest",
+        "Vitest"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "mutation-testing-specialist",
+      "title": "Mutation Testing Specialist",
+      "description": "Uses mutation testing results, or manual mutation reasoning, to find weak or missing assertions and propose tests that kill surviving mutants. Use when tests pass but you doubt they would catch real defects.",
+      "path": "skills/mutation-testing-specialist/SKILL.md",
+      "activity": "testing",
+      "difficulty": "advanced",
+      "frameworks": [
+        "PIT",
+        "Stryker",
+        "mutmut"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "performance-analyst",
+      "title": "Performance Analyst",
+      "description": "Analyses performance problems with a measure-first approach: defines the metric, finds the bottleneck from profiles, queries or traces, proposes targeted changes and verifies the improvement. Use for slow endpoints, jobs or queries.",
+      "path": "skills/performance-analyst/SKILL.md",
+      "activity": "performance",
+      "difficulty": "advanced",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "pr-readiness-reviewer",
+      "title": "PR Readiness Reviewer",
+      "description": "Checks whether a pull request is ready for human review: scope, tests and their evidence, description, risks, documentation and quality gates. Use before requesting review, and as an independent pass.",
+      "path": "skills/pr-readiness-reviewer/SKILL.md",
+      "activity": "review",
+      "difficulty": "beginner",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "refactoring-specialist",
+      "title": "Refactoring Specialist",
+      "description": "Plans and performs behaviour-preserving refactoring in small, test-protected steps, starting with characterisation tests for untested code. Use when improving structure without changing behaviour.",
+      "path": "skills/refactoring-specialist/SKILL.md",
+      "activity": "quality",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "regression-analyst",
+      "title": "Regression Analyst",
+      "description": "Assesses the regression risk of a change: identifies impacted behaviour, callers and data, selects or creates regression tests, and checks that existing tests were preserved. Use before merging changes to existing behaviour.",
+      "path": "skills/regression-analyst/SKILL.md",
+      "activity": "debugging",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "repository-explorer",
+      "title": "Repository Explorer",
+      "description": "Builds an evidence-based map of an unfamiliar codebase: structure, entry points, conventions, tests and the code paths relevant to a task. Use before planning or modifying code you do not know well.",
+      "path": "skills/repository-explorer/SKILL.md",
+      "activity": "planning",
+      "difficulty": "beginner",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "requirement-analyst",
+      "title": "Requirement Analyst",
+      "description": "Analyses a requirement, user story or ticket before any code is written. Surfaces ambiguity, missing business rules, assumptions and testable acceptance criteria. Use when a task description is vague, new, or about to be implemented.",
+      "path": "skills/requirement-analyst/SKILL.md",
+      "activity": "requirements",
+      "difficulty": "beginner",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "security-reviewer",
+      "title": "Security Reviewer",
+      "description": "Use when reviewing code or a design for security defects: injection, broken authentication and authorisation, secrets, unsafe deserialisation, sensitive data exposure, dependency risk and prompt injection. Complements, never replaces, SAST, DAST and expert review.",
+      "path": "skills/security-reviewer/SKILL.md",
+      "activity": "security",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "any"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "tdd-engineer",
+      "title": "TDD Engineer",
+      "description": "Drives implementation through Red, Green, Refactor cycles: writes one failing test from a scenario, makes it pass with the simplest change, then refactors, reporting actual test results at every step. Use when implementing new behaviour.",
+      "path": "skills/tdd-engineer/SKILL.md",
+      "activity": "testing",
+      "difficulty": "intermediate",
+      "frameworks": [
+        "JUnit 5",
+        "pytest",
+        "Vitest"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    },
+    {
+      "name": "unit-test-engineer",
+      "title": "Unit Test Engineer",
+      "description": "Designs and writes fast, deterministic unit tests that assert behaviour, cover boundaries and negative cases, and fail when the code is wrong. Use when adding or improving unit tests for existing or new code.",
+      "path": "skills/unit-test-engineer/SKILL.md",
+      "activity": "testing",
+      "difficulty": "beginner",
+      "frameworks": [
+        "JUnit 5",
+        "Mockito",
+        "pytest",
+        "Vitest"
+      ],
+      "version": "1.0",
+      "license": "MIT"
+    }
+  ]
+}
